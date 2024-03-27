@@ -13,7 +13,7 @@ go run cmd/apollo.go
 
 Go to `http://localhost:8080` to view the control panel. This will show which services are running along with the URLs
 
-![apollo control panel](image.png)
+![apollo control panel](./screenshots/control-panel.png)
 
 ## Base Services
 
@@ -23,7 +23,7 @@ The cli tool comes with four services built-in `Consensus Node`, `Bridge Node`, 
 
 The binary comes with a faucet for easily funding accounts. By default it will be hosted at `http://localhost:1095`. You can use the API by sending a GET request to `http://localhost:1095/fund/<your_celestia_address>`
 
-![faucet web page](image-1.png)
+![faucet web page](./screenshots/faucet.png)
 
 ## Adding Services
 
